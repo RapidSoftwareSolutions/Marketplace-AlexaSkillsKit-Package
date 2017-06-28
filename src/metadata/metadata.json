@@ -1,0 +1,80 @@
+{
+  "package": "AlexaSkillsKit",
+  "tagline": "Alexa Skills Kit API",
+  "description": "",
+  "image": "https://logo.clearbit.com/alexa.com",
+  "repo": "https://github.com/RapidSoftwareSolutions/Marketplace-AlexaSkillsKit-Package",
+  "keywords": [
+    "API",
+    "alexa"
+  ],
+  "accounts": {
+    "domain": "alexa.com",
+    "credentials": [
+    ]
+  },
+
+  "blocks": [],
+  "events": [
+    {
+      "name": "webhookEvent",
+      "description": "Command for webhook event",
+      "payload":
+      {
+        "version": "string",
+        "sessionAttributes": {
+          "string": "object"
+        },
+        "response": {
+          "outputSpeech": {
+            "type": "string",
+            "text": "string",
+            "ssml": "string"
+          },
+          "card": {
+            "type": "string",
+            "title": "string",
+            "content": "string",
+            "text": "string",
+            "image": {
+              "smallImageUrl": "string",
+              "largeImageUrl": "string"
+            }
+          },
+          "reprompt": {
+            "outputSpeech": {
+              "type": "string",
+              "text": "string",
+              "ssml": "string"
+            }
+          },
+          "directives": [
+            {
+              "type": "string",
+              "playBehavior": "string",
+              "audioItem": {
+                "stream": {
+                  "token": "string",
+                  "url": "string",
+                  "offsetInMilliseconds": 0
+                }
+              }
+            }
+          ],
+          "shouldEndSession": "boolean"
+        }
+      },
+      "steps": [
+        "Navigate to setWebhook block",
+        "Set callback to __WEBHOOK_URL__"
+      ],
+      "args": [
+        {
+          "name": "token",
+          "type": "string",
+          "info": "Token sent on each message",
+          "required": false
+        }
+      ]
+    }]
+}
