@@ -14,7 +14,19 @@
     ]
   },
 
-  "blocks": [],
+  "blocks": [
+    {
+      "name": "testBlock",
+      "description": "test block.",
+      "args": [
+      {
+        "name": "apiKey",
+        "type": "String",
+        "info": "Api Key.",
+        "required": false
+      }
+  ]}
+  ],
   "events": [
     {
       "name": "webhookEvent",
