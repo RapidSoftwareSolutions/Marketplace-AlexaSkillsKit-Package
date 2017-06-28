@@ -1,6 +1,8 @@
 [![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/AlexaSkillsKit/functions?utm_source=RapidAPIGitHub_AlexaSkillsKitFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
 # AlexaSkillsKit Package
 
+Enables you to give Alexa new abilities by building a cloud-based service
+
 * Domain: [alexa.com](http://www.alexa.com/)
 
 ## Webhook credentials

@@ -1,7 +1,7 @@
 {
   "package": "AlexaSkillsKit",
   "tagline": "Alexa Skills Kit API",
-  "description": "",
+  "description": "Enables you to give Alexa new abilities by building a cloud-based service",
   "image": "https://logo.clearbit.com/alexa.com",
   "repo": "https://github.com/RapidSoftwareSolutions/Marketplace-AlexaSkillsKit-Package",
   "keywords": [
